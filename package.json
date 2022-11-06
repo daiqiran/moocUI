@@ -1,0 +1,45 @@
+{
+  "name": "mooc-ui-dqr",
+  "version": "0.1.1",
+  "description": "慕课网演示组件库",
+  "main": "dist/index.umd.js",
+  "keywords": [
+    "mooc-ui-dqr3",
+    "vue",
+    "ui"
+  ],
+  "author": "daiqiran",
+  "files": [
+    "dist",
+    "components"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "npm run build:js && npm run build:css",
+    "build:js": "webpack --config ./webpack.component.js",
+    "build:css": "npx gulp sass",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "core-js": "^3.8.3",
+    "mooc-ui-dqr": "^0.1.0",
+    "mooc-ui-dqr3": "^0.1.1",
+    "vue": "^3.2.36"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^5.1.0",
+    "mooc-ui-dqr2": "^0.1.0",
+    "sass": "^1.55.0",
+    "sass-loader": "^10.1.1",
+    "vue-loader": "^17.0.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.7",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
