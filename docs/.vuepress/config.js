@@ -4,7 +4,7 @@ module.exports = {
     base: '/moocUI/',
     themeConfig: {
       nav: [{
-        text: 'Home', link: '/'
+        text: 'Home', link: '/',
       }, {
         text: 'Github', link: 'https://github.com/daiqiran/moocUI'
       }, {
