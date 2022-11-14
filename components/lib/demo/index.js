@@ -4,3 +4,4 @@ Demo.install = function(Vue) {
 }
 
 export default Demo
+// export { Demo}

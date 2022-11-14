@@ -1,6 +1,6 @@
 {
   "name": "mooc-ui-dqr",
-  "version": "0.1.1",
+  "version": "3.2.36",
   "description": "慕课网演示组件库",
   "main": "dist/index.umd.js",
   "keywords": [
@@ -22,10 +22,12 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "copy-webpack-plugin": "^6.0.3",
     "core-js": "^3.8.3",
     "mooc-ui-dqr": "^0.1.0",
     "mooc-ui-dqr3": "^0.1.1",
-    "vue": "^3.2.36"
+    "vue": "^2.6.13",
+    "webpack": "^4.46.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",

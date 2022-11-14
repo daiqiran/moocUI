@@ -4,3 +4,6 @@ Card.install = function(Vue) {
 }
 
 export default Card
+// export {
+//     Card
+// }
